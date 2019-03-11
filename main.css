@@ -1,0 +1,124 @@
+body {
+	text-align: center;
+	background: linear-gradient(45deg, #ff2000, #ff9f00, #f3ff11, #50fe0e, #0efeaa, #bf54ff);
+}
+
+h1 {
+	color: white;
+	font-size: 100px;
+	font-family: cursive;
+	text-align: center;
+
+}
+
+h2 {
+	color: #010000;
+	font-size: 70px;
+	font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+	color: #000000;
+	font-size: 50px;
+	font-family: Times New Roman;
+}
+.header{
+	color: blue;
+	font-size: 50px;
+	font-family: "Arial";
+
+
+}
+
+#header3 {
+	color: blue;
+	font-size: 100px;
+	text-align: center;
+	margin: 100px 20%;
+	transition-duration: 0.3s;
+}
+
+#header3:hover {
+	background-color: white;
+	color: blue;
+}
+
+#message
+
+#leagueoflegends{
+	display: block;
+	margin: auto;
+	width: 700px;
+}
+
+#div1 {
+	background: linear-gradient(45deg, red, yellow);
+}
+
+#title {
+	background: linear-gradient(45deg, aqua, blue, purple);
+	padding: 200px 15% 200px 15%;
+	margin: 100px 10%;
+	border: 5px double black;
+
+}
+
+#butt {
+	padding: 10px 40px;
+	font-size: 25px;
+	border-radius: 20px;
+	border: ;
+	color: blue;
+	background: linear-gradient(40deg, turquoise, lightgreen);
+	transition-duration: 0.2s;
+}
+
+#butt:hover {
+	background-color: linear-gradient(40deg, turquoise, lightgreen);
+	background-position: right;
+	cursor: pointer;
+	letter-spacing: 4px;
+	transition-duration:100s;
+	transform: rotate(300000deg) scale(2);
+}
+
+@media only screen and (max-width: 768px) { 
+	#header3 {
+		font-size: 25px;
+	}
+
+
+	body {
+	margin: 0;
+	padding: 0;
+
+}
+
+.jumbotron {
+	background: linear-gradient(to right, #687987, #aa8989);
+}
+
+#col1 {
+	background-color: aqua;
+}
+
+#col2 {
+	background-color: green;
+}
+
+#col3 {
+	background-color: #ee7788;
+}
+
+.carousel-item img {
+	width: 100%;
+}
+
+#messageform {
+	padding: 50px 10%;
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+
