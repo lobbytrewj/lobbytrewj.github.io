@@ -121,4 +121,8 @@ h3 {
 @media only screen and (max-width: 768px) {
 }
 
+#p1 {
+	transition-duration: 0.3;
+}
+
 

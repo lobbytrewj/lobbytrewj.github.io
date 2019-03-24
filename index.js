@@ -38,3 +38,48 @@ function triProduct(x, y, z) {
 }
 alert(triProduct(10,11,12))
 */
+
+function slide() {
+	$(".carousel-inner").slideToggle();
+	$("#div1").slideToggle();
+	$("title").slideToggle();
+}
+
+function change() {
+	$("#p1").html("HELLO!")
+	$("#p1").css("font-size", "100px")
+	$("#p1").css("color", "darkblue")
+}
+
+/*function alertValue() {
+	alert($("#name").val())
+}*/
+
+function validate() {
+
+	var missing = []
+
+	if($("#name").val() == "")
+		missing.push("name")
+	if($("#email").val() == "")
+		missing.push("email")
+	if($("#message").val() == "")
+		missing.push("message")
+
+	if(missing.length>0) {
+
+		$("#errormessage").css("color", "red")
+
+		$("#errormessage").html("You are missing: " + missing)
+
+	   } else {
+
+                  $("#errormessage").css("color", "green")
+
+     $("#errormessage").html("Thank you for submitting!")
+
+}	
+
+}
+
+
