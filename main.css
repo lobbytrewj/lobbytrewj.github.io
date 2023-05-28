@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-	color: white;
+	color: black;
 	font-size: 100px;
 	font-family: cursive;
 	text-align: center;
@@ -52,11 +52,11 @@ h3 {
 }
 
 #div1 {
-	background: linear-gradient(45deg, red, yellow);
+	background: linear-gradient(45deg, #D3D3D3);
 }
 
 #title {
-	background: linear-gradient(45deg, aqua, blue, purple);
+	background: linear-gradient(45deg, #A9A9A9);
 	padding: 200px 15% 200px 15%;
 	margin: 100px 10%;
 	border: 5px double black;
@@ -69,12 +69,12 @@ h3 {
 	border-radius: 20px;
 	border: ;
 	color: blue;
-	background: linear-gradient(40deg, turquoise, lightgreen);
+	background: linear-gradient(40deg, #D3D3D3);
 	transition-duration: 0.2s;
 }
 
 #butt:hover {
-	background-color: linear-gradient(40deg, turquoise, lightgreen);
+	background-color: linear-gradient(40deg, #DCDCDC);
 	background-position: right;
 	cursor: pointer;
 	letter-spacing: 4px;
@@ -95,7 +95,7 @@ h3 {
 }
 
 .jumbotron {
-	background: linear-gradient(to right, #687987, #aa8989);
+	background: linear-gradient(to right, #F5F5F5);
 }
 
 #col1 {
